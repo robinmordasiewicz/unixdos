@@ -39,6 +39,6 @@ file_with_lf.txt: ASCII text
 
 * Reference
 
-[^1]: GitHub article describing the purpose of the .gitattributes file [supporting link](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings).
+GitHub article describing the purpose of the .gitattributes file [supporting link](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings).
 
-[^2]: YouTube Video by ASCODE explaining the trouble with line endings [YouTube ASCODE](https://www.youtube.com/watch?v=zn7m2Mdm_Vg)
+YouTube Video by ASCODE explaining the trouble with line endings [YouTube ASCODE](https://www.youtube.com/watch?v=zn7m2Mdm_Vg)
