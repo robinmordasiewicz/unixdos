@@ -1,0 +1,9 @@
+{
+  "image": "docker.io/robinmordasiewicz/devcontainer:latest",
+  "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
+  "name": "unixdos",
+  "runArgs": [
+    "--name=unixdos",
+    "--hostname=unixdos"
+  ]
+}
