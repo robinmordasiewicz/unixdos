@@ -27,3 +27,7 @@ file_with_crlf.txt: ASCII text, with CRLF line terminators
 user@host:~$ file file_with_lf.txt
 file_with_lf.txt: ASCII text
 ```
+
+* Reference
+
+https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
