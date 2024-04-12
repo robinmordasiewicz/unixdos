@@ -7,6 +7,14 @@ user@host:~$ cat .gitattributes
 * text=auto eol=lf
 ```
 
+After creating and committing the .gitattributes file to the repository run the following command to update the files in the repository.
+
+
+```console
+user@host:~$ git add --renormalize .
+
+```
+
 ### Testing file line endings
 
 #### Change file endings
