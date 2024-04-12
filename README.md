@@ -45,6 +45,20 @@ user@host:~$ file file_with_lf.txt
 file_with_lf.txt: ASCII text
 ```
 
+##### Use pre-commit to remove crlf
+
+```console
+user@host:~$ pre-commit run --all-files
+CRLF end-lines remover...................................................Failed
+- hook id: remove-crlf
+- exit code: 1
+
+Removing CRLF end-lines in: file_with_crlf.txt
+
+CRLF end-lines have been successfully removed. Now aborting the commit.
+You can check the changes made. Then simply "git add --update ." and re-commit
+```
+
 * Reference
 
 [GitHub article describing the purpose of the .gitattributes file](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings).
