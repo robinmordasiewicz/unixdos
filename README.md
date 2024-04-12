@@ -45,7 +45,20 @@ user@host:~$ file file_with_lf.txt
 file_with_lf.txt: ASCII text
 ```
 
-##### Use pre-commit to remove crlf
+##### Install pre-commit hook to remove crlf
+
+```console
+user@host:~$ cat .pre-commit-config.yaml
+---
+fail_fast: true
+repos:
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5
+    hooks:
+      - id: remove-crlf
+```
+
+##### Manually run pre-commit to remove crlf
 
 ```console
 user@host:~$ pre-commit run --all-files
