@@ -45,3 +45,9 @@ do
     sleep 2
 done
 '''
+something new
+another something new
+it stays LF and does not revert to CRLF
+asd
+asd
+fas
